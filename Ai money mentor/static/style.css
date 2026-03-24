@@ -1,0 +1,33 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+}
+
+.container {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.chatbox {
+    height: 200px;
+    overflow-y: auto;
+    background: rgba(255,255,255,0.1);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 5px;
+}
+
+button {
+    padding: 10px;
+    background: #00c853;
+    color: white;
+    border: none;
+}
